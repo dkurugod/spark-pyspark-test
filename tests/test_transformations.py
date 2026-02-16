@@ -1,5 +1,5 @@
 import pytest
-from src.transformations import transform_data
+from spark_pyspark_test.transformations import transform_data
 
 @pytest.mark.spark
 def test_transform_data(customers_df, orders_df):
