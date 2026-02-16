@@ -1,5 +1,5 @@
-from src.spark_session import get_spark
-from src.transformations import transform_data
+from spark_pyspark_test.spark_session import get_spark
+from spark_pyspark_test.transformations import transform_data
 
 def main():
     spark = get_spark("local-run")
